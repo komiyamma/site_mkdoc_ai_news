@@ -32,5 +32,9 @@ nav:
   - Suno:
       - path: 2026-ai-suno
       - path: 2025-ai-suno
+  - Antroid AI:
+      - path: 2026-ai-android
+  - iOS AI:
+      - path: 2026-ai-ios
   - NVidia:
       - path: 2026-nvidia
