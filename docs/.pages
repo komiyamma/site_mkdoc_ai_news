@@ -36,5 +36,7 @@ nav:
       - path: 2026-ai-android
   - iOS AI:
       - path: 2026-ai-ios
+  - Unity AI:
+      - path: 2026-ai-unity
   - NVidia:
       - path: 2026-nvidia
