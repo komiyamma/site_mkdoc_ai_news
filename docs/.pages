@@ -6,8 +6,15 @@ nav:
   - 生成AI:
       - 2026-ai-generated
       - 2025-ai-generated
+  - Youtubeまとめ:
+      - 2026-ai-youtube
+  - エディタ－:
+      - 2026-ai-editor
+      - 2025-ai-editor
   - AI Agent:
       - 2026-ai-agent
+  - Skills:
+      - 2026-ai-skills
   - MCP:
       - 2026-ai-mcp
       - 2025-ai-mcp
@@ -20,23 +27,16 @@ nav:
   - Veo:
       - 2026-google-veo
       - 2025-google-veo
+  - 動画生成:
+      - 2026-ai-video
   - Suno:
       - 2026-ai-suno
       - 2025-ai-suno
-  - NVidia:
-      - 2026-nvidia
-  - エディタ－:
-      - 2026-ai-editor
-      - 2025-ai-editor
   - Android:
       - 2026-ai-android
   - iOS:
       - 2026-ai-ios
-  - Skills:
-      - 2026-ai-skills
   - Unity:
       - 2026-ai-unity
-  - 動画生成:
-      - 2026-ai-video
-  - Youtubeまとめ:
-      - 2026-ai-youtube
+  - NVidia:
+      - 2026-nvidia
