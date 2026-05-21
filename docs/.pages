@@ -1,42 +1,42 @@
 nav:
   - index.md
   - AI 総合:
-      - path: 2026-ai-overview
-      - path: 2025-ai-overview
+      - 2026-ai-overview
+      - 2025-ai-overview
   - 生成AI:
-      - path: 2026-ai-generated
-      - path: 2025-ai-generated
+      - 2026-ai-generated
+      - 2025-ai-generated
   - AI Youtube:
-      - path: 2026-ai-youtube
+      - 2026-ai-youtube
   - AI エディタ－:
-      - path: 2026-ai-editor
-      - path: 2025-ai-editor
+      - 2026-ai-editor
+      - 2025-ai-editor
   - AI Agent:
-      - path: 2026-ai-agent
+      - 2026-ai-agent
   - AI Skills:
-      - path: 2026-ai-skills
+      - 2026-ai-skills
   - MCP:
-      - path: 2026-ai-mcp
-      - path: 2025-ai-mcp
+      - 2026-ai-mcp
+      - 2025-ai-mcp
   - Nano Banana:
-      - path: 2026-google-nano-banana
-      - path: 2025-google-nano-banana
+      - 2026-google-nano-banana
+      - 2025-google-nano-banana
   - Adobe Firefly:
-      - path: 2026-adobe-firefly
-      - path: 2025-adobe-firefly
+      - 2026-adobe-firefly
+      - 2025-adobe-firefly
   - Veo:
-      - path: 2026-google-veo
-      - path: 2025-google-veo
+      - 2026-google-veo
+      - 2025-google-veo
   - AI 動画生成:
-      - path: 2026-ai-video
+      - 2026-ai-video
   - Suno:
-      - path: 2026-ai-suno
-      - path: 2025-ai-suno
-  - Antroid AI:
-      - path: 2026-ai-android
-  - iOS AI:
-      - path: 2026-ai-ios
-  - Unity AI:
-      - path: 2026-ai-unity
+      - 2026-ai-suno
+      - 2025-ai-suno
+  - Android×AI:
+      - 2026-ai-android
+  - iOS×AI:
+      - 2026-ai-ios
+  - Unity×AI:
+      - 2026-ai-unity
   - NVidia:
-      - path: 2026-nvidia
+      - 2026-nvidia
