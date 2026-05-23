@@ -6,6 +6,8 @@ nav:
   - 生成AI:
       - 2026-ai-generated
       - 2025-ai-generated
+  - Youtubeまとめ:
+      - 2026-ai-youtube
   - AI Agent:
       - 2026-ai-agent
   - MCP:
@@ -17,6 +19,8 @@ nav:
   - Adobe Firefly:
       - 2026-adobe-firefly
       - 2025-adobe-firefly
+  - 動画生成:
+      - 2026-ai-video
   - Veo:
       - 2026-google-veo
       - 2025-google-veo
@@ -36,7 +40,3 @@ nav:
       - 2026-ai-skills
   - Unity:
       - 2026-ai-unity
-  - 動画生成:
-      - 2026-ai-video
-  - Youtubeまとめ:
-      - 2026-ai-youtube
