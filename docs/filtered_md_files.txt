@@ -1,5 +1,7 @@
-G:\repogitory\site_mkdoc_ai_news\docs\2026-ai-android\2026-05-22.md
-G:\repogitory\site_mkdoc_ai_news\docs\2026-ai-generated\2026-05-22.md
-G:\repogitory\site_mkdoc_ai_news\docs\2026-ai-overview\2026-05-22.md
-G:\repogitory\site_mkdoc_ai_news\docs\2026-google-nano-banana\2026-05-22.md
-G:\repogitory\site_mkdoc_ai_news\docs\2026-google-veo\2026-05-22.md
+G:\repogitory\site_mkdoc_ai_news\docs\2026-ai-android\2026-05-23.md
+G:\repogitory\site_mkdoc_ai_news\docs\2026-ai-generated\2026-05-23.md
+G:\repogitory\site_mkdoc_ai_news\docs\2026-ai-ios\2026-05-23.md
+G:\repogitory\site_mkdoc_ai_news\docs\2026-ai-overview\2026-05-23.md
+G:\repogitory\site_mkdoc_ai_news\docs\2026-ai-unity\2026-05-23.md
+G:\repogitory\site_mkdoc_ai_news\docs\2026-google-nano-banana\2026-05-23.md
+G:\repogitory\site_mkdoc_ai_news\docs\2026-google-veo\2026-05-23.md
