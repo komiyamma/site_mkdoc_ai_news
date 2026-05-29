@@ -10,6 +10,9 @@ nav:
       - 2026-ai-youtube
   - AI Agent:
       - 2026-ai-agent
+  - エディタ－:
+      - 2026-ai-editor
+      - 2025-ai-editor
   - MCP:
       - 2026-ai-mcp
       - 2025-ai-mcp
@@ -29,9 +32,6 @@ nav:
       - 2025-ai-suno
   - NVidia:
       - 2026-nvidia
-  - エディタ－:
-      - 2026-ai-editor
-      - 2025-ai-editor
   - Android:
       - 2026-ai-android
   - iOS:
