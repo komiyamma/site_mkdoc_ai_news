@@ -13,6 +13,8 @@ nav:
   - エディタ－:
       - 2026-ai-editor
       - 2025-ai-editor
+  - Skills:
+      - 2026-ai-skills
   - MCP:
       - 2026-ai-mcp
       - 2025-ai-mcp
@@ -34,8 +36,6 @@ nav:
       - 2026-ai-android
   - iOS:
       - 2026-ai-ios
-  - Skills:
-      - 2026-ai-skills
   - Unity:
       - 2026-ai-unity
   - NVidia:
