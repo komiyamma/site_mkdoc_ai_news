@@ -38,7 +38,7 @@ nav:
       - 2026-ai-ios
   - Unity:
       - 2026-ai-unity
+  - Game:
+      - 2026-ai-game
   - NVidia:
       - 2026-nvidia
-  - ゲーム:
-      - 2026-ai-game
