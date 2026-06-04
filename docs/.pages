@@ -10,6 +10,8 @@ nav:
       - 2026-ai-youtube
   - AI Agent:
       - 2026-ai-agent
+  - Local LLM:
+      - 2026-ai-local-llm
   - エディタ－:
       - 2026-ai-editor
       - 2025-ai-editor
