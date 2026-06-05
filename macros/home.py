@@ -178,12 +178,20 @@ def define_env(env):
         if navigation is None:
             chatter("No navigation available yet")
             return ""
+        category_order: Dict[str, int] = {}
+        for page in navigation.pages:
+            src_uri = getattr(page.file, "src_uri", "")
+            if not src_uri:
+                continue
+            slug = src_uri.split("/", 1)[0]
+            category_order.setdefault(slug, len(category_order))
         entries = collect_entries(navigation)
         categories: Dict[str, Dict[str, object]] = {}
         for entry in entries:
             slug = entry["category_slug"]
             bucket = categories.setdefault(slug, {
                 "label": entry["category_label"],
+                "slug": slug,
                 "items": [],
                 "seen": set(),
             })
@@ -195,7 +203,10 @@ def define_env(env):
             bucket["seen"].add(entry["url"])
         ordered_categories = sorted(
             (data for data in categories.values() if data["items"]),
-            key=lambda data: data["items"][0]["date"],
+            key=lambda data: (
+                data["items"][0]["date"],
+                -category_order.get(str(data["slug"]), len(category_order)),
+            ),
             reverse=True,
         )
         if max_categories is not None:
