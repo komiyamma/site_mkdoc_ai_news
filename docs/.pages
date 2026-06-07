@@ -26,6 +26,8 @@ nav:
   - Adobe Firefly:
       - 2026-adobe-firefly
       - 2025-adobe-firefly
+  - 画像生成:
+      - 2026-ai-image
   - 動画生成:
       - 2026-ai-video
   - Veo:
