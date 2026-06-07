@@ -142,6 +142,36 @@ def define_env(env):
         entries.sort(key=lambda item: item["date"], reverse=True)
         return entries
 
+    def read_nav_category_order() -> Dict[str, int]:
+        config = env.variables.get("config", {}) or {}
+        docs_dir = Path(config.get("docs_dir", "docs"))
+        pages_path = docs_dir / ".pages"
+        try:
+            root_pages = yaml.safe_load(pages_path.read_text(encoding="utf-8")) or {}
+        except (OSError, yaml.YAMLError) as exc:
+            chatter(f"Failed to read root .pages for category order: {exc}")
+            return {}
+
+        category_order: Dict[str, int] = {}
+        for item in root_pages.get("nav", []):
+            if isinstance(item, str):
+                continue
+            if not isinstance(item, dict):
+                continue
+            for children in item.values():
+                if not isinstance(children, list):
+                    continue
+                for child in children:
+                    if isinstance(child, str):
+                        slug = child
+                    elif isinstance(child, dict):
+                        slug = str(child.get("path", ""))
+                    else:
+                        continue
+                    if slug:
+                        category_order.setdefault(slug, len(category_order))
+        return category_order
+
     def build_entry_line(entry: Dict) -> str:
         date_text = entry["date"].strftime("%Y-%m-%d")
         line = f"- [{date_text}]({entry['url']})"
@@ -178,13 +208,7 @@ def define_env(env):
         if navigation is None:
             chatter("No navigation available yet")
             return ""
-        category_order: Dict[str, int] = {}
-        for page in navigation.pages:
-            src_uri = getattr(page.file, "src_uri", "")
-            if not src_uri:
-                continue
-            slug = src_uri.split("/", 1)[0]
-            category_order.setdefault(slug, len(category_order))
+        category_order = read_nav_category_order()
         entries = collect_entries(navigation)
         categories: Dict[str, Dict[str, object]] = {}
         for entry in entries:
