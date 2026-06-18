@@ -20,7 +20,7 @@ echo No target markdown files. Skipping codex.
 exit /b 0
 
 :run_codex
-call grok -p "@gemini_command.mdの内容を実行して。画面には進捗以外の情報が出す必要はありません。要約に「一週間だった」とか「１日だった」などは記載しないこと。最後にこのリポジトリに対して、適切なコミットメッセージとともに全てコミット＆プッシュしてください。"
+call grok --always-approve --permission-mode bypassPermissions -p "@gemini_command.mdの内容を実行して。画面には進捗以外の情報が出す必要はありません。要約に「一週間だった」とか「１日だった」などは記載しないこと。最後にこのリポジトリに対して、適切なコミットメッセージとともに全てコミット＆プッシュしてください。"
 
 rem call hermes -z "@gemini_command.mdの内容を実行して。画面には進捗以外の情報が出す必要はありません。要約に「一週間だった」とか「１日だった」などは記載しないこと。最後にこのリポジトリに対して、適切なコミットメッセージとともに全てコミット＆プッシュしてください。"
 
